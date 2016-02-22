@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('fusion', ['ionic', 'fusion.controllers'])
+angular.module('fusion', ['ionic', 'fusion.controllers', 'fusion.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -36,7 +36,8 @@ angular.module('fusion', ['ionic', 'fusion.controllers'])
     url: '/home',
     views: {
       'mainContent': {
-        templateUrl: 'templates/home.html'
+        templateUrl: 'templates/home.html',
+        controller: 'IndexController'
       }
     }
   })
