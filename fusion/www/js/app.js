@@ -46,7 +46,8 @@ angular.module('fusion', ['ionic', 'fusion.controllers', 'fusion.services'])
       url: '/aboutus',
       views: {
         'mainContent': {
-          templateUrl: 'templates/aboutus.html'
+          templateUrl: 'templates/aboutus.html',
+          controller: 'AboutController'
         }
       }
     })
@@ -65,7 +66,7 @@ angular.module('fusion', ['ionic', 'fusion.controllers', 'fusion.services'])
       views: {
         'mainContent': {
           templateUrl: 'templates/menu.html',
-          controller: ''
+          controller: 'MenuController'
         }
       }
     })
@@ -75,7 +76,7 @@ angular.module('fusion', ['ionic', 'fusion.controllers', 'fusion.services'])
     views: {
       'mainContent': {
         templateUrl: 'templates/dishdetail.html',
-        controller: ''
+        controller: 'DishDetailController'
       }
     }
   });

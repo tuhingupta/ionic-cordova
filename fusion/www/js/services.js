@@ -44,5 +44,6 @@ angular.module('fusion.services',['ngResource'])
             return $resource(baseURL+"feedback/:id");
     
         }])
+        
 
 ;

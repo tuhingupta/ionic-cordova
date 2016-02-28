@@ -41,8 +41,9 @@ angular.module('fusion.controllers', [])
   };
 })
 
-.controller('MenuController', ['$scope', 'menuFactory', function($scope, menuFactory) {
-            
+.controller('MenuController', ['$scope', 'menuFactory', 'baseURL', function($scope, menuFactory, baseURL) {
+
+            $scope.baseURL = baseURL;            
             $scope.tab = 1;
             $scope.filtText = '';
             $scope.showDetails = false;
@@ -117,7 +118,8 @@ angular.module('fusion.controllers', [])
             };
         }])
 
-        .controller('DishDetailController', ['$scope', '$stateParams', 'menuFactory', function($scope, $stateParams, menuFactory) {
+        .controller('DishDetailController', ['$scope', '$stateParams', 'menuFactory', 'baseURL', function($scope, $stateParams, menuFactory, baseURL) {
+            $scope.baseURL = baseURL;
             
             $scope.dish = {};
             $scope.showDish = false;
@@ -176,10 +178,18 @@ angular.module('fusion.controllers', [])
                         $scope.promotion = menuFactory.getPromotion().get({id:0});
       }])
 
-        .controller('AboutController', ['$scope', 'corporateFactory', function($scope, corporateFactory) {
+        .controller('AboutController', ['$scope', 'corporateFactory','baseURL', function($scope, corporateFactory,baseURL) {
             
-                    $scope.leaders = corporateFactory.query();
-                    console.log($scope.leaders);
+                    $scope.baseURL = baseURL;
+
+                    corporateFactory.query(
+                        function(response) {
+                            $scope.leaders = response;
+                            
+                        },
+                        function(response) {
+                            $scope.message = "Error: "+response.status + " " + response.statusText;
+                        });
             
                     }])
 ;
