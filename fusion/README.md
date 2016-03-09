@@ -1,9 +1,28 @@
-Ionic App Base
+fusion - Ionic App
 =====================
 
-A starting project for Ionic that optionally supports using custom SCSS.
+## To run fusion app
 
-## Using this project
+### Run `json-server`
+
+```bash
+$ cd json-server
+$ json-server --watch db.json
+```
+
+## Run Ionic app
+
+
+```bash
+$ cd fusion
+$ ionic serve --lab
+```
+This will launch the Ionic Cordova app on your web browser.
+
+
+## Additional information about Ionic CLI project
+=====================
+## Using Iconic CLI project
 
 We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
 
