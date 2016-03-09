@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5932c198-f73c-4d00-88e2-8b802698c003" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusion/www/templates/reserve.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fusion/www/js/controllers.js" afterPath="$PROJECT_DIR$/fusion/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fusion/www/templates/sidebar.html" afterPath="$PROJECT_DIR$/fusion/www/templates/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fusion/.gitignore" afterPath="$PROJECT_DIR$/fusion/.gitignore" />
     </list>
     <ignored path="ionic-cordova.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reserve.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reserve.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fusion/www/templates/reserve.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8589386">
+            <state vertical-scroll-proportion="-25.625">
               <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fusion/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12622721">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -73,6 +82,7 @@
         <option value="$PROJECT_DIR$/fusion/www/templates/sidebar.html" />
         <option value="$PROJECT_DIR$/fusion/www/templates/reserve.html" />
         <option value="$PROJECT_DIR$/fusion/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/fusion/.gitignore" />
       </list>
     </option>
   </component>
@@ -333,8 +343,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fusion/www/templates/reserve.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8589386">
+        <state vertical-scroll-proportion="-25.625">
           <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fusion/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12622721">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
